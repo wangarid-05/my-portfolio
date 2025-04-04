@@ -1,4 +1,3 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,7 +69,6 @@ index.html
 
 </body>
 
-syles.css
 </ht/* Base Reset */
 * {
     margin: 0;
