@@ -1,0 +1,125 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f5ff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Color Palette */
+:root {
+    --primary-color: #9B59B6;
+    --accent-color: #59B69B;
+    --light-bg: #fff;
+    --dark-text: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    margin: 40px 0;
+    background-color: var(--light-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(155, 89, 182, 0.1);
+}
+
+section h2 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+/* CV Button */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #884ea0;
+}
+
+/* Contact Icons */
+.contact-icons {
+    margin-top: 15px;
+}
+
+.contact-icons a {
+    margin-right: 15px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: var(--accent-color);
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+/* Project Link */
+.project-item {
+    margin-top: 10px;
+}
+
+.project-item a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
